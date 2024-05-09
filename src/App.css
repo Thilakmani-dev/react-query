@@ -1,0 +1,62 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 4px;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.post {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 4px;
+  background: #f6f6f6;
+  padding: 4px;
+}
+
+.tags {
+  display: flex;
+  gap: 4px;
+}
+
+.tag {
+  background: #bebebe;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.addPostForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.inputTitle {
+  width: 100%;
+}
+
+.inputTags {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.inputTag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.addPostButton {
+  background: #bebebe;
+  width: 200px;
+}
